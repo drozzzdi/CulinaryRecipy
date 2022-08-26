@@ -9,8 +9,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Search/>
-        <Navigation/>
-        <Pages/>
+        <div className='division'>
+          <Pages/>
+          <Navigation/>
+        </div>
       </BrowserRouter>
       
     </div>
