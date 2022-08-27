@@ -7,5 +7,6 @@
 .division{
     margin-left: 40px;
     display: grid;
-    grid-template-columns: [first] 75vw [line2] 15vw;
+    grid-template-columns: [first] 75vw [line2] 20vw;
+    gap: 50px;
 }
