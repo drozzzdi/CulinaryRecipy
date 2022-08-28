@@ -7,7 +7,7 @@ function Home() {
     <div>
         <Popular/>
         <Breakfast/>
-       <Lunch/>
+        <Lunch/>
     </div>
   )
 }
