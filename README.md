@@ -1,5 +1,5 @@
 # Website with culinary recipes
-See DEMO
+See DEMO\
 Site built with REACT.JS. Uses an external API.\
 It contains a detailed description of the preparation of each dish with a list of ingredients.\
 It allows you to search for dishes and divide them into world cuisines.
