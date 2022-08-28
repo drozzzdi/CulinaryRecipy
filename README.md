@@ -1,12 +1,22 @@
-# Getting Started with Create React App
+# Website with culinary recipes
+See DEMO
+Site built with REACT.JS. Uses an external API.\
+It contains a detailed description of the preparation of each dish with a list of ingredients.\
+It allows you to search for dishes and divide them into world cuisines.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech stack
+
+HTML,\
+Css,\
+React,\
+React Router,\
+Npm,
+
+This project was bootstrapped with Create React App.
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
+###`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
