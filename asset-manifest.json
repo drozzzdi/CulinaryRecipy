@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CulinaryRecipy/static/css/main.5b70fac4.css",
+    "main.js": "/CulinaryRecipy/static/js/main.6beab204.js",
+    "static/js/787.c88ab314.chunk.js": "/CulinaryRecipy/static/js/787.c88ab314.chunk.js",
+    "index.html": "/CulinaryRecipy/index.html",
+    "main.5b70fac4.css.map": "/CulinaryRecipy/static/css/main.5b70fac4.css.map",
+    "main.6beab204.js.map": "/CulinaryRecipy/static/js/main.6beab204.js.map",
+    "787.c88ab314.chunk.js.map": "/CulinaryRecipy/static/js/787.c88ab314.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b70fac4.css",
+    "static/js/main.6beab204.js"
+  ]
+}
