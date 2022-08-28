@@ -12,14 +12,14 @@ function Lunch() {
   },[])
 
   const getLunch=async()=>{
-    const check=localStorage.getItem('marinade');
+    const check=localStorage.getItem('soup');
 
     if(check){
       setLunch(JSON.parse(check))
   } else{
-      const api=await fetch(`https://api.spoonacular.com/recipes/random?apiKey=34b707a8e64c4c4687e1fa25a6377e58&number=9&tags=marinade`);
+      const api=await fetch(`https://api.spoonacular.com/recipes/random?apiKey=34b707a8e64c4c4687e1fa25a6377e58&number=9&tags=soup`);
       const data= await api.json();
-      localStorage.setItem("dessert", JSON.stringify(data.recipes))
+      localStorage.setItem("soup", JSON.stringify(data.recipes))
       setLunch(data.recipes);
   }
   }
@@ -27,7 +27,7 @@ function Lunch() {
   return (
     <div>
        <div className="wrapper" >
-                <h3 className="lunchH3">Appetizer</h3>
+                <h3 className="lunchH3">Soup</h3>
                 <Splide
                     options={{
                         perPage:4,

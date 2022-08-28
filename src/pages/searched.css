@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardSerched{
+    width: 20vw;
+    height: 20vw;
+    margin:4rem 2rem;
+    position: relative;
+    
+}
+img{
+    width: 100%;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+a{
+    text-decoration:none;
+}
+.h4cuisine{
+    position: absolute;
+    top:21vw;
+    text-align: center;
+    padding: 1rem;
+}

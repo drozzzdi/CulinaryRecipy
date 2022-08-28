@@ -18,7 +18,7 @@ function Searched() {
 
 
   return (
-    <div className='grid'>
+    <div className='flex'>
         {searchedRecipes.map((item)=>{
           return(
             <Link to={"/recipe/" + item.id}>
