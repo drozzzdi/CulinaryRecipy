@@ -18,9 +18,10 @@ img{
 a{
     text-decoration:none;
 }
-.h4cuisine{
+.h4cuisines{
     position: absolute;
     top:21vw;
     text-align: center;
     padding: 1rem;
+    color: #313131;
 }

@@ -17,7 +17,7 @@ function Search() {
 
   return (
     <div className='searchWrapper'>
-        <Link className='textdecor' to={"/"}>
+        <Link className='textdecor' to={"/:home"}>
             <div className='logo'>
                 <IoIosRestaurant className="logoRestaurant"></IoIosRestaurant>
                 <h3 className='logoName'>Yummy</h3>
